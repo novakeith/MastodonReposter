@@ -1,5 +1,4 @@
 FROM python:3.10-slim-bullseye
-LABEL MAINTAINER="keith@novakeith.net"
 WORKDIR /usr/src/app
 COPY ./reblogger.py ./
 RUN chmod +x reblogger.py
